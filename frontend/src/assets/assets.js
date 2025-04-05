@@ -1,3 +1,4 @@
+// we have imprted all the images frm the assests
 import appointment_img from './appointment_img.png'
 import header_img from './header_img.png'
 import group_profiles from './group_profiles.png'
@@ -37,7 +38,7 @@ import Gynecologist from './Gynecologist.svg'
 import Neurologist from './Neurologist.svg'
 import Pediatricians from './Pediatricians.svg'
 
-
+// here we create an object as assets and exprting all the images
 export const assets = {
     appointment_img,
     header_img,
@@ -58,6 +59,8 @@ export const assets = {
     razorpay_logo
 }
 
+
+// here we create an array of objects for the doctors and their specialities
 export const specialityData = [
     {
         speciality: 'General physician',
@@ -84,6 +87,8 @@ export const specialityData = [
         image: Gastroenterologist
     },
 ]
+
+// here we create an array of objects for the doctors and their details
 
 export const doctors = [
     {
